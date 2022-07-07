@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+header {
+  min-height: 100vh;
+  background-image: url(../donate-today/images/292037620_1437500106689071_2231718163614075983_n.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 300;
+  align-items: center;
+}
+header p {
+  font-size: 21px;
+  color: solid white;
+  max-width: 80%;
+  align-items: center;
+  text-transform: uppercase;
+}
+header .button {
+  text-decoration: none;
+  padding: 13px 30px;
+  background-color: crimson;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.4s ease;
+}
+header .button::marker {
+  opacity: 0.7;
+  box-shadow: 0 0 12px crimson;
+  color: white;
+}
+.container1 {
+  width: 90%;
+  height: 10px;
+  background: white;
+  margin: 50px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box2 {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.box3 {
+  width: 250px;
+  height: 65px;
+  background-color: rgb(129, 8, 8);
+  box-sizing: border-box;
+  border: brown;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.donate-plan {
+  margin-top: 70px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.title1 {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+}
+.card2 {
+  width: 350px;
+  height: 250px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 8px 8px 16px gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+.icon1 {
+  width: 50px;
+}
+.color-black {
+  color: black;
+  text-align: center;
+}
+.box1 {
+  color: black;
+}
+.card4 {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 10px;
+  justify-content: center;
+  height: 80vh;
+}
+.form-box {
+  padding: 10px;
+  border-radius: 5px;
+  background: #ececec;
+  box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input {
+  font-size: 18px;
+  color: #000;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  background: #ececec;
+}
+.form-box button {
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #4769d8;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-box button:hover {
+  background: #2e54d3;
+}
+.card5 {
+  width: 900px;
+  height: 250px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 8px 8px 16px gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+footer {
+  width: 100vh;
+  margin: 5px;
+}
